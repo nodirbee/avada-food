@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.section1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+nav {
+    height: 270px;
+    background-color: rgba(128, 128, 128, 0.304);
+
+}
+
+.tepa {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 300px;
+}
+
+.ong {
+    gap: 40px;
+    display: flex;
+}
+
+.ong>a {
+    color: rgb(90, 88, 88);
+}
+
+.ong>a:hover {
+    color: #fc7523;
+    transition: all ease 0.3s;
+}
+
+.ong>i {
+    font-size: 20px;
+    color: #fc7523;
+}
+
+.chap {
+    display: flex;
+    gap: 40px;
+}
+
+.chap>i {
+    color: rgb(90, 88, 88);
+    font-size: 20px;
+    transition: all ease 0.3s;
+}
+
+.chap>i:hover {
+    background-color: white;
+}
+
+#rasm1 {
+    position: absolute;
+    z-index: 2;
+    right: 870px;
+    width: 170px;
+}
+
+.pas {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    gap: 50px;
+}
+
+.pas>a,
+i {
+    font-size: 18px;
+    color: #000;
+    transition: all ease 0.4s;
+}
+
+.pas>a:hover {
+    color: #fc7523;
+    border-bottom: 1px solid #fc7523;
+}
+
+.pas>i:hover {
+    color: #fc7523;
+    border-bottom: 1px solid #fc7523;
+}
+
+
+.sec1 {
+    width: 100%;
+    height: 700px;
+    background-image: url("https://avada.website/food/wp-content/uploads/sites/118/2019/02/slide1-bg.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 180px;
+}
+
+.child {
+    width: 800px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.child>button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fc7523;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: -24px;
+}
+
+.child>p {
+    font-size: 45px;
+    font-weight: 800;
+    font-family: serif;
+    margin-top: 50px;
+    color: #000000c3;
+}
+
+.child>b {
+    font-size: 45px;
+    font-weight: 800;
+    font-family: serif;
+    color: #000000c3;
+}
+
+.child>span {
+    margin-top: 28px;
+    font-size: 18px;
+    color: gray;
+}
+
+.section2 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.304);
+
+}
+
+.tbox {
+    width: 70%;
+    height: 520px;
+    background-color: white;
+    position: absolute;
+    margin-top: -5rem;
+    right: 280px;
+}
+
+.yoz {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.yoz>p {
+    font-size: 18px;
+}
+
+.rasla {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding-top: 38px;
+}
+
+.ras1 {
+    background-image: url("https://avada.website/food/wp-content/uploads/sites/118/2019/03/single-post-img3-800x527.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ras1>p {
+    margin-top: 400px;
+    font-size: 28px;
+    font-family: serif;
+    font-weight: 400;
+}
+
+.ras1>p:hover {
+    color: #fc7523;
+}
+
+.ras1>h2:hover {
+    color: #fc7523;
+}
+
+.ras1>h2 {
+    font-size: 28px;
+    font-family: serif;
+    font-weight: 400;
+}
+
+.ras1>span {
+    margin-top: 18px;
+    color: gray;
+}
+
+
+.ras2 {
+    background-image: url("https://avada.website/food/wp-content/uploads/sites/118/2019/03/fi-roundup-400x263.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ras2>p {
+    margin-top: 400px;
+    font-size: 28px;
+    font-family: serif;
+    font-weight: 400;
+}
+
+.ras2>h2 {
+    font-size: 28px;
+    font-family: serif;
+    font-weight: 400;
+}
+
+.ras2>p:hover {
+    color: #fc7523;
+}
+
+.ras2>h2:hover {
+    color: #fc7523;
+}
+
+.ras2>span {
+    margin-top: 18px;
+    color: gray;
+}
+
+.ras3 {
+    background-image: url("https://avada.website/food/wp-content/uploads/sites/118/2019/03/fi-korean-food-400x263.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ras3>p {
+    margin-top: 400px;
+    font-size: 28px;
+    font-family: serif;
+    font-weight: 400;
+}
+
+.ras3>h2 {
+    font-size: 28px;
+    font-family: serif;
+    font-weight: 400;
+}
+
+.ras3>p:hover {
+    color: #fc7523;
+}
+
+.ras3>h2:hover {
+    color: #fc7523;
+}
+
+.ras3>span {
+    margin-top: 18px;
+    color: gray;
+}
+
+.pbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 580px;
+}
+
+.pbox>p {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.pbox>h2 {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 30px;
+    color: gray;
+}
+
+.pbox>span {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 15px;
+    color: gray;
+}
